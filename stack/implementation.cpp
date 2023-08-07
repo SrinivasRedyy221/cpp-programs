@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
-
+/*
+Stack is By default implemented using dequeue container
+Stack uses other container and woks as a interface it is also called container adaper (term in stl language) queue and priorty queue are also called same
+Time Complexity of stl stack is 0(1)*/
 class Stack {
     private:
         int *arr;
