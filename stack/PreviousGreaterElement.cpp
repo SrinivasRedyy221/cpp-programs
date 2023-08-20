@@ -8,7 +8,7 @@
 using namespace std;
 
 int main(){
-    int arr[]={13,15,12,14,16,8,6,4,10,30};
+    int arr[]={20,30,10,5,15};
     int n=sizeof(arr)/sizeof(arr[0]);
     stack<int> s;
 
