@@ -122,7 +122,7 @@ class Deque{
             }
             cout<<endl;
         }
-}
+};
 
 int main(){
     Deque dq(5);
