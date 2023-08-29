@@ -102,7 +102,26 @@ class Deque{
             }
             return arr[rear];
         }
-        void display();
+        void display(){
+            if(isEmpty()){
+                cout<<"Deque is empty"<<endl;
+                return;
+            }
+            if(front<=rear){
+                for(int i=front;i<=rear;i++){
+                    cout<<arr[i]<<" ";
+                }
+            }
+            else{
+                for(int i=front;i<size;i++){
+                    cout<<arr[i]<<" ";
+                }
+                for(int i=0;i<=rear;i++){
+                    cout<<arr[i]<<" ";
+                }
+            }
+            cout<<endl;
+        }
 }
 
 int main(){
