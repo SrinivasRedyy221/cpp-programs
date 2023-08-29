@@ -125,5 +125,18 @@ class Deque{
 }
 
 int main(){
+    Deque dq(5);
+    dq.insertFront(10);
+    dq.insertFront(20);
+    dq.insertRear(30);
+    dq.insertRear(40);
+    dq.insertFront(50);
+    dq.display();
+    dq.deleteFront();
+    dq.deleteRear();
+    dq.display();
+    dq.insertFront(60);
+    dq.insertRear(70);
+    dq.display();
     return 0;
 }
